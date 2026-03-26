@@ -1,4 +1,4 @@
-const API_URL = "https://portfolio-r-fr4i.onrender.com";
+const API_URL = "https://portfolio-2-0-b7d0.onrender.com";
 
 // THEME TOGGLE
 const toggle = document.getElementById("themeToggle");
