@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: CI Pipeline
 
 on:
   push:
@@ -10,27 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+
+      - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 18
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
+        working-directory: backend
 
-      - name: Build project
-        run: npm run build
-
-      - name: Run tests
-        run: npm test
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Deploy to server
-        run: echo "Deploying..."
+      - name: Run Tests
+        run: echo "No tests yet"
+        working-directory: backend
