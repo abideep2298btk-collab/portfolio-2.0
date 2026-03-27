@@ -9,14 +9,14 @@
 body.dark {
   --bg: #f8f8ff ;
   --text: #000000 ;
-  --card: #7d572e;
+  --card: #e6e6fa;
   --accent: #2c2abe;
 }
 
 body.light {
   --bg: #00ffff;
   --text: #000000 ;
-  --card: #7d572e;
+  --card: #e6e6fa;
   --accent: #eb5325;
 }
 
@@ -104,7 +104,7 @@ body {
 
 /* BUTTONS */
 .hero-buttons button {
-  background: #7d572e ;
+  background: #e6e6fa ;
   color: #000000;
   border: none;
   padding: 10px 16px;
