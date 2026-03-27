@@ -9,14 +9,14 @@
 body.dark {
   --bg: #f8f8ff ;
   --text: #000000 ;
-  --card: #f5f5dc;
+  --card: #7d572e;
   --accent: #2c2abe;
 }
 
 body.light {
   --bg: #00ffff;
   --text: #000000 ;
-  --card: #f5f5dc;
+  --card: #7d572e;
   --accent: #eb5325;
 }
 
